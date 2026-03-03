@@ -1,10 +1,8 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.util.internal.PathUtil
-
-import internal.GlobalVariable
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import internal.GlobalVariable as GlobalVariable
 
 Mobile.comment('Story: Verify correct alarm message')
 
@@ -14,8 +12,6 @@ Mobile.comment('Given that user has started an application')
 def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AppPath, RunConfiguration.getProjectDir())
 
 Mobile.startApplication(appPath, false)
-
-Mobile.comment('And he navigates the application to Graphics form')
 
 Mobile.tap(findTestObject('Application/android.widget.TextView - Graphics'), GlobalVariable.G_Timeout)
 
