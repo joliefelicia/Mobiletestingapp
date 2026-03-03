@@ -59,5 +59,44 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Packages'), 0)
 
+Mobile.tap(findTestObject('Application/content/android.widget.TextView - Install Apk'), 0)
+
+Mobile.tap(findTestObject('Application/content/android.widget.Button - Uninstall wResult'), 0)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Application/content/android.widget.TextView - Provider'), 0)
+
+Mobile.tap(findTestObject('Application/content/android.widget.TextView - Pick Contact'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Pick a Contact'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.LinearLayout (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.LinearLayout (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.LinearLayout'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Pilih kontak'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - PERJANJIAN POLI REGULER (BPJS) RS. Jantung Sehat'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Pick a Contact'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - File Manager'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Penyimpanan bersama internal'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Download'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - 10000000_100251932359265_2714152678953962931_n_050613.mp4'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Oke'), 0)
+
 Mobile.closeApplication()
 
