@@ -67,6 +67,49 @@ Mobile.pressBack()
 
 Mobile.pressBack()
 
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Resources'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Layout Reference'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Resources'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Smallest Width'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Styled Text'), 0)
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Width and Height'), 0)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Storage'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - External Storage'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Create'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Delete'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Create'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Delete'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Create'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Delete'), 0)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 Mobile.tap(findTestObject('Application/content/android.widget.TextView - Provider'), 0)
 
 Mobile.tap(findTestObject('Application/content/android.widget.TextView - Pick Contact'), 0)
@@ -99,4 +142,56 @@ Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.
 Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Oke'), 0)
 
 Mobile.closeApplication()
+
+Mobile.startApplication('C:\\Users\\asus2\\Katalon Studio\\testingmobilee\\androidapp\\APIDemos.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Content'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Packages'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Install Apk'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.Button - Unknown Source'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
+Mobile.startApplication('C:\\Users\\asus2\\Katalon Studio\\testingmobilee\\androidapp\\APIDemos.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Content'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Packages'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Install Apk'), 0)
+
+Mobile.tap(findTestObject('Application/content/android.widget.Button - My Source'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
+Mobile.startApplication('C:\\Users\\asus2\\Katalon Studio\\testingmobilee\\androidapp\\APIDemos.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Content'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Packages'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Install Apk'), 0)
+
+Mobile.tap(findTestObject('Application/content/android.widget.Button - Replace'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
+Mobile.startApplication('C:\\Users\\asus2\\Katalon Studio\\testingmobilee\\androidapp\\APIDemos.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Content'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Packages'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Application/content/android.widget.TextView - Install Apk'), 0)
+
+Mobile.tap(findTestObject('Application/content/android.widget.Button - Uninstall'), 0)
 
